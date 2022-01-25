@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TechZone</title>
+        <link rel="icon" href="img/icon.png">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css" />
         <link rel="stylesheet" href="style/style.css">
     </head>
@@ -22,7 +23,7 @@
 
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
-                                <a href="#!" class="header__nav-link">
+                                <a href="index.html" class="header__nav-link list__link">
                                     computer
                                 </a>
                             </li>
@@ -34,7 +35,7 @@
                             </li>
 
                             <li class="header__nav-item">
-                                <a href="#!" class="header__nav-link">
+                                <a href="html/phone.html" class="header__nav-link">
                                     phone
                                 </a>
                             </li>
@@ -57,7 +58,10 @@
                 <div class="main__content">
                     <img src="img/computer.png" alt="" class="main__content-img">
 
-                    <div class="main__content-item">
+                    <div id="main__content" class="main__content-power">                        
+                    </div>
+
+                    <div id="popup2" class="main__content-item">
 
                         <div class="main__content-ekran">
                             <img src="img/xp.gif" alt="" class="main__item-img">
@@ -105,6 +109,12 @@
 
                         <img src="img/error.jpg" alt="" class="main__content-img">
                     </div>
+
+                    <div class="main__content-on-off">
+                        <a href="#popup2" class="main__content-on">ON</a>
+                        <a href="#main__content" class="main__content-off">OFF</a>
+                    </div>
+
                 </div>
             </div>
         </main>
