@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comforta/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comforta/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url('../fonts/Josefin/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../fonts/Josefin/JosefinSans-Regular.ttf');
+}
